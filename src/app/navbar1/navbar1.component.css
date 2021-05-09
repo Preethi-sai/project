@@ -1,0 +1,42 @@
+
+
+ @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+ @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+ 
+
+a:hover{
+    background-color: #FFE4B5;
+    border-radius: 25px;
+}
+
+#logo{
+    
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+
+#home
+{
+    
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+#login{
+     
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+
+}
+#register{
+  
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+
+}
+
+
+#logout{
+   
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+
+#cart{
+   
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
